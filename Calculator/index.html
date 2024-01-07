@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mayisela Bakery</title>
+    <title>Calculator</title>
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,6 +15,38 @@
     <script defer src="main.js"></script>
 </head>
 <body>
-    
+    <main class="container">
+        <!-- Display Screen -->
+        <section class="display"></section>
+
+        <!-- Buttons -->
+        <section class="buttons">
+            <div class="numbers"></div>
+
+            <div class="operands">
+                <span class="plus">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="25px" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                    </svg>
+                </span>
+
+                <span class="multiplication">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="25px" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                    </svg>
+                </span>
+
+                <span class="minus">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="25px" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14" />
+                    </svg>
+                </span>
+
+                <span class="division">
+                    <svg xmlns="http://www.w3.org/2000/svg"  height="25px" stroke-width="1.5"  viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M272 96a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm0 320a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM400 288c17.7 0 32-14.3 32-32s-14.3-32-32-32H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H400z"/></svg>
+                </span>
+            </div>
+        </section>
+    </main>
 </body>
 </html>

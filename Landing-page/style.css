@@ -7,6 +7,28 @@
 
 .banner{
     height: 100vh;
-    
+    background-image: url(./images/pexels-malidate-van-784633.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
 }
 
+.pageNav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #fff;
+    opacity: 0.6;
+}
+
+.name{
+    width: 50vw;
+}
+
+.container{
+    background-image: url(./images/pexels-leigh-patrick-298217.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}

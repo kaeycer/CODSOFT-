@@ -5,3 +5,100 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+header, footer{
+    height: 15vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container{
+    width: 60vw;
+    height: 60vh;
+    border: 2px solid orange;
+    padding: 10px;
+}
+
+.display{
+    width: 100%;
+    height: 10vh;
+    border: 2px solid orange;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: 80% 10%;
+    column-gap: 2%;
+    height: 100%;
+    padding: 10px;
+}
+
+svg{
+    border: 2px solid orangered;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+/* Look for an svg for del */
+/* span.svg1{
+    font-size: large;
+    border: 2px solid orangered;
+    width: 30px;
+    height: 30px;
+    margin: 0;
+} */
+
+.numbers{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.operands{
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+
+}
+
+button{
+    border: none;
+    width: fit-content;
+    height: fit-content;
+    background-color: white;
+}
+
+/* .numbers button:nth-of-type(11){
+    grid-column: 2 / 4;
+    width: 85%;
+    height: 30px;
+    border: 2px solid orangered;    
+}
+
+button #equals-to{
+    border: none;
+} */
+
+.display{
+    display: grid;
+    justify-content: space-between;
+}
+
+.backspace{
+    justify-self: end;
+    
+}
+
+.input_output{
+    width: 50vw;
+}
